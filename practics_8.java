@@ -30,6 +30,8 @@ public class practics_8 {
             default:
                 System.out.println("invalid choice");
         }
+        sc.close();
     }
+   
     
 }

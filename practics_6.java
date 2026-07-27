@@ -13,5 +13,6 @@ public class practics_6 {
         else{
             System.out.println("zero");
         }
+        sc.close();
     }
 }
