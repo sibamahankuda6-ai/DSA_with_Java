@@ -9,6 +9,7 @@ public class PrimeNumber {
         if(num%i==0){
             count++;
         }
+
        }
        if(count == 2){
         System.out.println("prime number");
