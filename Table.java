@@ -1,13 +1,11 @@
 import java.util.*;
-public class Factorial {
+public class Table {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-       int fact =1;
        System.out.println("Enter a number:");
        int num = sc.nextInt();
-       for(int i=1;i<=num;i++){
-         fact =fact*i;
+       for(int i=1;i<=10;i++){
+        System.out.println(num + "x" + i + "=" + num*i);
        }
-       System.out.println("factorial number is:" + fact);
     }
 }
