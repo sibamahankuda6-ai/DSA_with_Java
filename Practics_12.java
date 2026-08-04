@@ -17,5 +17,6 @@ public class Practics_12 {
         }
         System.out.println("sum of even number is " + sumEven);
         System.out.println("sum of odd number is " + sumOdd);
+        sc.close();
     }
 }
