@@ -109,17 +109,43 @@ public class Patterns {
                 System.out.print(" ");
             }
             for(int j=1;j<=r;j++){
-                for(int k=1;k<=r;k++){
-                if(j==1 || j==r ||k==1 || k==r){
+                
+                if(j==1 || j==r ||i==1 || i==r){
                     System.out.print("*");
                 }
                 else{
                     System.out.print(" ");
                 }
-                }
+                
             }
             System.out.println();
         }
+     }
+
+
+
+
+     public static void diamond(int r){
+        for(int i=1;i<=r;i++){
+            for(int j=1;j<=r-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=(2*i)-1;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        for(int i=r;i>=1;i--){
+            for(int j=1;j<=r-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=(2*i)-1;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
      }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -136,5 +162,7 @@ public class Patterns {
        butterfly_pattern(r);
        solid_rhombus(r);
        hollow_rhombus(r);
+       diamond(r);
+       sc.close();
     }
 }
