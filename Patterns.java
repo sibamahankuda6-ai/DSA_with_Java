@@ -163,6 +163,7 @@ public class Patterns {
        solid_rhombus(r);
        hollow_rhombus(r);
        diamond(r);
+       
        sc.close();
     }
 }
