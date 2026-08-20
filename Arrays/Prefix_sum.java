@@ -1,33 +1,29 @@
-//max subArray sum
+//max subArray Sum (using prefix)
 package Arrays;
 
 import java.util.Scanner;
 
-public class Max_subArray_sum {
-   
+public class Prefix_sum {
     public static void printMax_subArray_sum(int arr[]){
        int currSum = 0 ;
        int maxSum = Integer.MIN_VALUE;
-        
-        System.out.println("SubArrays :");
+        int prefix[] = new int[arr.length];
+
+        prefix[0] = arr[0];
+       for(int i=1;i<prefix.length;i++){
+        prefix[i] = prefix[i-1] + arr[i];
+       }
+
         for(int i=0;i<arr.length;i++){
             int start = i;
             for(int j=i;j<arr.length;j++){
                 int end = j;
-                currSum = 0;
-                for(int k=start;k<=end;k++){
-                   System.out.print(arr[k] + " ");//SubArray
-                   currSum +=arr[k];
-                }
-                System.out.println("\nsum of sub array is :" +  currSum);
+                currSum = start == 0 ? prefix[end]:prefix[end] - prefix[start-1];
+                
                 if(maxSum < currSum){
                     maxSum = currSum;
-                }
-               
-                System.out.println();
+                }  
             }
-
-            System.out.println();
         }
         System.out.println("Maximun sum is : " + maxSum);
        
@@ -45,6 +41,5 @@ public class Max_subArray_sum {
         sc.close();
     }
 }
-// sub array formula = (n*(n+1))/2
- 
 
+//time complexity = O(n2)
