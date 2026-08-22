@@ -7,6 +7,7 @@
         int b = sc.nextInt();
         System.out.println("Enter your choice(+,-,*,/)");
         char operator = sc.next().charAt(0);
+   
         switch(operator){
             case '+':
                 System.out.println("adition " + (a+b));
