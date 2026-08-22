@@ -13,7 +13,6 @@ public class Binary_to_Decimal {
         }
         System.out.println("decimal of " + num + " =" + decNum);
       }
-     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a binary number: ");
