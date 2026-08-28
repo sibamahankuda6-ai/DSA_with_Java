@@ -15,7 +15,6 @@ public class BinomialCofficient {
         int biocof = fact_f/(fact_r*factfr);
         return biocof;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter  a number: ");
