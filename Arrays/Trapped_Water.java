@@ -41,5 +41,7 @@ public class Trapped_Water {
             height[i] = sc.nextInt();
         }
         System.out.println("Trapped rain water is: " + trappedRainWater(height));
+        sc.close();
     }
+    
 }
