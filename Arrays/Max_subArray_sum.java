@@ -29,8 +29,7 @@ public class Max_subArray_sum {
 
             System.out.println();
         }
-        System.out.println("Maximun sum is : " + maxSum);
-       
+        System.out.println("Maximun sum is : " + maxSum); 
     }
     public static void main(String[] args) {
         Scanner  sc = new Scanner(System.in);
