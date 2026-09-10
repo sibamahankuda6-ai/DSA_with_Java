@@ -40,6 +40,7 @@ public class Four_sum {
                              + nums[left]
                              + nums[right];
 
+                             
                     if (sum == target) {
 
                         // Add quadruplet
