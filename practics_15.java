@@ -6,6 +6,7 @@ public class practics_15 {
        } 
        return false;
     }
+    
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("enter a number :");
