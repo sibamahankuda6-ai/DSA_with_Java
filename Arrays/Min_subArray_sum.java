@@ -18,6 +18,7 @@ public class Min_subArray_sum {
                    currSum +=arr[k];
                 }
                 System.out.println("\nsum of sub array is :" +  currSum);
+                
                 if(minSum > currSum){
                     minSum = currSum;
                 }
