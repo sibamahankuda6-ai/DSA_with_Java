@@ -20,6 +20,7 @@ public class Prefix_sum {
                 int end = j;
                 currSum = start == 0 ? prefix[end]:prefix[end] - prefix[start-1];
                 
+                
                 if(maxSum < currSum){
                     maxSum = currSum;
                 }  
