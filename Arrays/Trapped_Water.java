@@ -37,9 +37,11 @@ public class Trapped_Water {
         int n = sc.nextInt();
         int height[] = new int[n];
         System.out.println("Enter the hights of bar :");
+
         for(int i=0;i<n;i++){
             height[i] = sc.nextInt();
         }
+        
         System.out.println("Trapped rain water is: " + trappedRainWater(height));
         sc.close();
     }
