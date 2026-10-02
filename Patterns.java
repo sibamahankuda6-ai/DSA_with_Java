@@ -13,6 +13,7 @@ public class Patterns {
             System.out.println();
         }
     }
+    
     public static void inverted_Rotated_Half_Pyramid(int r){
         for(int i=1;i<=r;i++){
             for(int j=1;j<=r-i;j++){
