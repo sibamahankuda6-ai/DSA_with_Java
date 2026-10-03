@@ -9,6 +9,7 @@ public class SumOfDigits {
             n = n/10;
         }
         return sum;
+        
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
