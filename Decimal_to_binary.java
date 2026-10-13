@@ -15,6 +15,7 @@ public class Decimal_to_binary {
         System.out.println("binary of " + num + " =" + binNum);
       }
      
+      
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a decimal number: ");
