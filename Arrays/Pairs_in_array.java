@@ -10,7 +10,6 @@ public class Pairs_in_array {
                 System.out.print( "(" + current + "," + arr[j] + ")");
                 tp++;
             }
-
             System.out.println();
         }
         System.out.println("total pairs are:" + tp);
