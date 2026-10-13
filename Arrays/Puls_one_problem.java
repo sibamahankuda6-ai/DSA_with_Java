@@ -14,7 +14,6 @@ public class Puls_one_problem {
                 digits[i]++;
                 return digits;
             }
-
             // If digit is 9, make it 0 and carry 1
             digits[i] = 0;
         }
