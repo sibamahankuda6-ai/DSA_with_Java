@@ -7,6 +7,7 @@ public class Prime_N_numbers {
                 count++;
             }  
         } 
+    
         return count==2;
     }
         public static void main(String args[]){
