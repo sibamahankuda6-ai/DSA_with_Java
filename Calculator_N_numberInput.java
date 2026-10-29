@@ -18,6 +18,7 @@ public class Calculator_N_numberInput {
         }
     }
 
+    
     static double calculate(double a, double b, char op) {
         switch (op) {
             case '+':
