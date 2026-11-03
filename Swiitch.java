@@ -4,6 +4,7 @@ public class Swiitch {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter yout choice(1,2,3)");
         int n = sc.nextInt();
+        
         switch(n){
             case 1:
                 System.out.println("hello");
