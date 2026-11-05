@@ -13,6 +13,7 @@ public class practics_15 {
         int n = sc.nextInt();
         System.out.println("the number is even ==true or odd == false :::" + isEven(n));
         sc.close();
+        
     }
     
 }
